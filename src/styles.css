@@ -54,18 +54,6 @@ height: 25px;
 
 
 @media (min-width: 720px) {
-  .active {
-    text-align: center;
-
-  }
-
-  .active .logo {
-    display: block;
-    height: 75px;
-    width: 100px;
-    box-sizing: inherit;
-  }
-
-
+ 
 
 }

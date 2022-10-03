@@ -42,3 +42,58 @@
     color: white;
     position: relative;
   } 
+
+
+  
+@media (min-width: 720px) {
+  .active {
+   
+   
+  }
+
+  .topnav .logo {
+    display: flex;
+    height: 100px;
+    width: 150px;
+    margin-left: -1000px;
+  }
+
+ .active .home{
+  display: none;
+}
+
+/* Style the navigation menu */
+.topnav {
+  display: flex;
+  background-color: #333;
+  position: relative;
+  justify-content: space-between;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+ display: flex;
+ margin: 25px;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: rgb(255, 255, 255);
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: inline-block;
+  
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+ display: none;
+ }
+
+ .topnav a:hover{
+  color: orange;
+}
+
+
+}
