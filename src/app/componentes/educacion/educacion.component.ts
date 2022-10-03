@@ -13,7 +13,6 @@ export class EducacionComponent implements OnInit {
   }
 
   Info4:boolean = true
-
   visible4:boolean = false
 
   showinfo4(){
