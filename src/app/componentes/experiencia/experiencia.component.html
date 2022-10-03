@@ -1,0 +1,51 @@
+<div class="section2">
+  <h2>Experiencia</h2>
+  <div class="programas">
+    <div class="carta">
+      <h3>titulo carta1</h3>
+      <ng-container *ngIf="visible">
+        <span>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+            nesciunt, necessitatibus labore placeat vero ab culpa magnam enim
+            quo molestias temporibus modi eveniet voluptatem, perferendis
+            consectetur excepturi rerum voluptas exercitationem!
+          </p>
+        </span>
+      </ng-container>
+      <button class="btn" (click)="showinfo1()">
+        {{ Info ? "+Info" : "-Info" }}
+      </button>
+    </div>
+    <div class="carta">
+      <h3>titulo carta2</h3>
+      <ng-container *ngIf="visible2">
+        <span>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+            nesciunt, necessitatibus labore placeat vero ab culpa magnam enim
+            quo molestias temporibus modi eveniet voluptatem, perferendis
+            consectetur excepturi rerum voluptas exercitationem!
+          </p>
+        </span>
+      </ng-container>
+      <button class="btn" (click)="showinfo2()">
+        {{ Info2 ? "+Info" : "-Info" }}
+      </button>
+    </div>
+    <div class="carta">
+      <h3>titulo carta3</h3>
+      <ng-container *ngIf="visible3">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+          nesciunt, necessitatibus labore placeat vero ab culpa magnam enim quo
+          molestias temporibus modi eveniet voluptatem, perferendis consectetur
+          excepturi rerum voluptas exercitationem!
+        </p>
+      </ng-container>
+      <button class="btn" (click)="showinfo3()">
+        {{ Info3 ? "+Info" : "-Info" }}
+      </button>
+    </div>
+  </div>
+</div>

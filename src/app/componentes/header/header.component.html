@@ -1,1 +1,31 @@
-<p>header works!</p>
+<link rel="stylesheet" href="/portfolio/src/app/componentes/header/header.component.css">
+
+<div id="nav">
+    <header>
+        <div class="navbar">
+            <div class="topnav">
+                <div class="active">
+                    <img src="../../../assets/img/APLogo2020.png" alt="" class="logo">
+                    <a href="#home">Argentina
+                        Programa -
+                        #YoProgramo</a>
+                </div>
+                <!-- Navigation links (hidden by default) -->
+                <div id="myLinks">
+                    <a href="#about" onclick="closeNav()">Sobre mi</a>
+                    <a href="#Experiencia" onclick="closeNav()">Experiencia</a>
+                    <a href="#Educacion" onclick="closeNav()">Educacion</a>
+                    <a href="#Skills" onclick="closeNav()">Skills</a>
+                    <a href="#Proyectos" onclick="closeNav()">Proyectos</a>
+                    <a href="#contactos" onclick="closeNav()">Contactos</a>
+                    <a href="#">LogIn</a>
+                </div>
+                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+
+        </div>
+    </header>
+</div>

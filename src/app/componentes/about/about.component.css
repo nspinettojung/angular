@@ -1,0 +1,46 @@
+.section1 {
+    background-color: rgb(3, 3, 3);
+    
+    width: 100%;
+  }
+  
+  .banner {
+    position: relative;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../../../assets/img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 467px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .acerca {
+    background-color: lightcoral;
+    min-height: 200px;
+    text-align: center;
+  }
+  .acerca h1 {
+    font-size: 2em;
+    text-align: center;
+  }
+  
+  .acerca p {
+    font-size: 1em;
+    text-align: center;
+  }
+  
+  .foto {
+    background-color: lightblue;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+  }
+  

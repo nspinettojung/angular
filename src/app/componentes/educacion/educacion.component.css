@@ -1,0 +1,53 @@
+.section3 {
+    background-color: rgb(255, 255, 255);
+    min-height: 667px;
+    color: rgb(0, 0, 0);
+   
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  .section3 h2{
+    margin-top: 0;
+    font-size: 3em;
+    }
+  
+  .section3 p {
+    display: none;
+  }
+  
+  .section3 .carta1 {
+    background-size: cover;
+    background-position: center center;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+  }
+  
+ /* .carta1:nth-child(1) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("");
+  
+  }
+  
+  .carta1:nth-child(2) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("");
+  }
+  
+  .carta1:nth-child(3) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("");
+  }*/
