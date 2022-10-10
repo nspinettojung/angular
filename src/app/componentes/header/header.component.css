@@ -23,33 +23,30 @@
   
   /* Style the hamburger menu */
   .topnav a.icon {
-    background: black;
+    background: #333;
     display: block;
     position: absolute;
     right: 0;
     top: 0;
   }
   
-  /* Add a grey background color on mouse-over */
-  .topnav .active:hover {
-    background-color: #333;
-    
-  }
-  
   /* Style the active link (or home/logo) */
   .active {
-    background-color: #04AA6D;
+    background-color: #333;
     color: white;
     position: relative;
   } 
 
-
+  .navbar {
+    
+      
+  }
   
 @media (min-width: 720px) {
-  .active {
-   
-   
-  }
+  .navbar {
+  position: sticky;
+    top: 0;
+}
 
   .topnav .logo {
     display: flex;

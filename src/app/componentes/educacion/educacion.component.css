@@ -49,3 +49,10 @@
       ),
       url("");
   }*/
+
+  @media (min-width: 720px) {
+   
+    .section3 {
+      height: 100vh;
+    }
+  }

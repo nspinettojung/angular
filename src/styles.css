@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  
 }
 
 body {
@@ -41,11 +42,12 @@ body {
 
 .btnedit{
 border: none;
+background-color: transparent;
 }
 
 .imgedit{
-width: 25px;
-height: 25px;
+width: 40px;
+height: 40px;
 
 }
 
@@ -54,6 +56,19 @@ height: 25px;
 
 
 @media (min-width: 720px) {
- 
+  
+  .container {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+  }
+  
+  
+  .section {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100px;
+  }
+
 
 }

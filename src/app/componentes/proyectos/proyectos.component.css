@@ -2,3 +2,10 @@
     background-color: lightseagreen;
     min-height: 649px;
   }
+
+  @media (min-width: 720px) {
+   
+    .section5 {
+      height: 100vh;
+    }
+  }
