@@ -21,9 +21,7 @@ body {
     font-size: 1.5em;
   }*/
 
-.logo {
-  display: none;
-}
+
 
 .btn {
   font-size: 1em;
@@ -65,9 +63,8 @@ height: 40px;
   
   
   .section {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 100px;
+    
+    top: 95px;
   }
 
 

@@ -1,28 +1,33 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+/>
 
 <div id="nav" class="container">
   <header>
-    <div >
-      <div class="topnav">
+    <div>
+      <div class="topnav" (scroll)="onscroll()" [ngClass]="topnav?'topnav2':'topnav1'">
+        <img src="../../../assets/img/APLogo2020.png" alt="" class="logo" />
         <div class="active">
           <a href="#default" class="home">Argentina Programa - #YoProgramo</a>
         </div>
         <!-- Navigation links (hidden by default) -->
-        <img src="../../../assets/img/APLogo2020.png" alt="" class="logo" />
-        <div id="myLinks">
-          <a href="#about" >Sobre mi</a>
-          <a href="#Experiencia" >Experiencia</a>
-          <a href="#Educacion" >Educacion</a>
-          <a href="#Skills" >Skills</a>
-          <a href="#Proyectos" >Proyectos</a>
-          <a href="#contactos" >Contactos</a>
-          <a href="#">LogIn</a>
+
+        <div id="myLinks" [ngClass]="myLinks?'cerrado':'abierto'">
+          <a href="#about" (click)="myFunction()">Sobre mi</a>
+          <a href="#Experiencia" (click)="myFunction()">Experiencia</a>
+          <a href="#Educacion" (click)="myFunction()">Educacion</a>
+          <a href="#Skills" (click)="myFunction()">Skills</a>
+          <a href="#Proyectos" (click)="myFunction()">Proyectos</a>
+          <a href="#contactos" (click)="myFunction()">Contactos</a>
+          <a href="#" (click)="myFunction()">LogIn</a>
         </div>
         <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <a href="javascript:void(0);" class="icon" (click)="myFunction()">
           <i class="fa fa-bars"></i>
         </a>
       </div>
     </div>
   </header>
 </div>
+

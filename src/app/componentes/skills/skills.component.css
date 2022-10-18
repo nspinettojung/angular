@@ -2,10 +2,21 @@
     background-color: lightsalmon;
     min-height: 667px;
   }
+h1{
+  position: relative;
+  top: 50px;
+}
+
 
   @media (min-width: 720px) {
     .section4 {
       height: 100vh;
+    }
+
+    h1{
+      position: relative;
+      top: 100px;
+      
     }
 
   }

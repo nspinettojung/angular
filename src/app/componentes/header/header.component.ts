@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -11,5 +11,26 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
   }
+ topnav:boolean = false;
+
+@HostListener('window:scroll',['$event']) onscroll(){
+  if(window.scrollY > 80){
+    this.topnav = true;
+  }
+  else{
+    this.topnav = false;
+  }
+}
+
+myLinks: boolean = true
+
+myFunction(){
+this.myLinks = !this.myLinks
+}
+ 
+
+
+
+
 
 }

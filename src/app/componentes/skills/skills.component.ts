@@ -11,5 +11,12 @@ export class SkillsComponent implements OnInit {
 
   ngOnInit(): void {
   }
+ 
+ 
+  visible9:boolean = false
 
+  showinfo9(){
+    
+    this.visible9 = !this.visible9
+  }
 }
