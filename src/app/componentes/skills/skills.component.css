@@ -1,22 +1,60 @@
 .section4 {
-    background-color: lightsalmon;
-    min-height: 667px;
-  }
-h1{
+  background-color: #333;
+  min-height: 667px;
   position: relative;
-  top: 50px;
+  margin-top: 0;
 }
 
 
-  @media (min-width: 720px) {
-    .section4 {
-      height: 100vh;
-    }
 
-    h1{
-      position: relative;
-      top: 100px;
-      
-    }
+.section4 h1 {
+  color: white;
+  position: relative;
+  top: 50px;
+  text-align: center;
+}
 
+p {
+  color: white;
+
+}
+
+.grid {
+  position: relative;
+  top: 50px;
+  text-align: center;
+  
+}
+
+.col1 {
+  display: inline-block;
+  padding: 20px;
+  
+}
+
+
+
+
+@media (min-width: 720px) {
+  .section4 {
+    
+    height: 100vh;
   }
+
+  .section4 h1 {
+    position: relative;
+    top: 100px;
+    text-align: center;
+  }
+
+  .col1 {
+    display: none;
+    
+    
+  }
+  .col2 {
+    display: inline-block;
+    padding: 140px;
+    
+  }
+}

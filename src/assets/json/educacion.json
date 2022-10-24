@@ -1,0 +1,22 @@
+{
+  "escuela": [
+    {
+      "secundario": "Instituto Superior Manuel de Falla",
+      "año": "2008",
+      "titulo": "Telecomunicaciones"
+    }
+  ],
+
+  "cursos": [
+    {
+        "id":"0",
+        "nombre":"Programación inicial JAVA y Oracle",
+        "titulo":"JAVA y Oracle"
+    },
+    { 
+        "id":"1",
+        "nombre": "Argentina programa", 
+        "titulo": "Desarrollador Fullstack" 
+    }
+  ]
+}

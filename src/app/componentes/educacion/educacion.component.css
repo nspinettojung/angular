@@ -2,7 +2,6 @@
   background-color: rgb(255, 255, 255);
   min-height: 667px;
   color: rgb(0, 0, 0);
-
   text-align: center;
   margin-top: 0;
 }
@@ -76,6 +75,7 @@
     top: 150px;
     border: 1px solid;
     display: inline-block;
+    width: 500px;
   }
   
 }
