@@ -50,7 +50,7 @@
 }
 
 
-@media (min-width: 720px) {
+@media (min-width: 1250px) {
 
 
   .topnav .logo {
@@ -63,7 +63,7 @@
   .active .home {
     position: absolute;
     display: flex;
-    width: 1000px;
+    width: 304px;
     left: 200px;
     top: 27px;
   }
