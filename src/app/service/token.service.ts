@@ -6,25 +6,12 @@ const AUTHORITIES_KEY = 'AuthAuthorities';
 @Injectable({
   providedIn: 'root'
 })
-export class TokenService {
-  getToken() {
-    throw new Error('Method not implemented.');
-  }
-  getAuthirities(): string[] {
-    throw new Error('Method not implemented.');
-  }
-  setToken(token: string) {
-    throw new Error('Method not implemented.');
-  }
-  setUserName(nombreUsuario: string) {
-    throw new Error('Method not implemented.');
-  }
-  setAuthorities(authorities: string[]) {
-    throw new Error('Method not implemented.');
-  }
-  /*roles: Array<String> = [];
 
-  private readonly roles = this.roles;
+export class TokenService {
+  
+  roles: Array<string> = [];
+
+  
 
   constructor() { }
 
@@ -65,5 +52,5 @@ export class TokenService {
   public logOut(): void {
     window.sessionStorage.clear();
 
-  }*/
+  }
 }
